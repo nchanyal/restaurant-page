@@ -5,6 +5,7 @@ function generateHomepage() {
     const header = document.createElement("h1");
     const image = document.createElement("img");
 
+    contentDiv.textContent = "";
     header.textContent = "Welcome to the Sushi Place!!";
     image.src = sushiImage;
 
