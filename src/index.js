@@ -1,1 +1,3 @@
-console.log("Hi :)");
+import { generateHomepage } from "./homepage.js";
+
+generateHomepage();
